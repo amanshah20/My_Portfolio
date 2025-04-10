@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Aman's Digital Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <ul>
+      <li><a href="#" data-target="about">About</a></li>
+      <li><a href="#" data-target="resume">Resume</a></li>
+      <li><a href="#" data-target="skills">Skills</a></li>
+      <li><a href="#" data-target="languages">Languages</a></li>
+      <li><a href="#" data-target="projects">Projects</a></li>
+      <li><a href="#" data-target="certifications">Certifications</a></li>
+      <li><a href="#" data-target="contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- Sections -->
+
+  <section id="about" class="section active">
+    <div class="about-content">
+      <div class="about-image">
+        <img src="aman.jpg" alt="Aman Image" />
+      </div>
+      <div class="about-text">
+        <h2>About Me</h2>
+        <p>
+          Hello! I'm <strong>Aman</strong>, a passionate and creative Software Engineering student with a specialization in <strong>DevOps</strong> at <strong>Lovely Professional University (LPU)</strong>. I love building digital experiences that are fast, beautiful, and user-friendly.
+        </p>
+        <p>
+          I specialize in web development using <strong>HTML, CSS, JavaScript</strong> and have hands-on experience with technologies like <strong>Docker</strong> and <strong>Flask</strong>. I’ve built projects like N-Queen Visualizer, a FedEx Frontend Clone, and a Flask To-Do App using Docker.
+        </p>
+        <p>
+          I’m also exploring automation with tools like <strong>Selenium WebDriver</strong> and constantly learning new technologies to grow as a full-stack developer and DevOps enthusiast.
+        </p>
+        <p>
+          Apart from coding, I enjoy creating visually stunning UIs and optimizing user experience. Let’s build something amazing together! 🚀
+        </p>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Resume -->
+  <section id="resume" class="section">
+    <h2>Resume</h2>
+    <button class="upload-btn">Upload CV</button>
+    <a href="your-resume.pdf" download class="download-btn">Download Resume</a>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="section">
+    <h2>Technical Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-box">
+        <i class="fab fa-html5"></i>
+        <div class="circle" data-percent="90"><span>0%</span></div>
+        <h3>HTML</h3>
+      </div>
+      <div class="skill-box">
+        <i class="fab fa-css3-alt"></i>
+        <div class="circle" data-percent="85"><span>0%</span></div>
+        <h3>CSS</h3>
+      </div>
+      <div class="skill-box">
+        <i class="fab fa-js"></i>
+        <div class="circle" data-percent="80"><span>0%</span></div>
+        <h3>JavaScript</h3>
+      </div>
+      <div class="skill-box">
+        <i class="fab fa-docker"></i>
+        <div class="circle" data-percent="70"><span>0%</span></div>
+        <h3>Docker</h3>
+      </div>
+      <div class="skill-box">
+        <i class="fab fa-linux"></i>
+        <div class="circle" data-percent="70"><span>0%</span></div>
+        <h3>Linux</h3>
+      </div>
+      <div class="skill-box">
+        <i class="fab fa-jenkins"></i>
+        <div class="circle" data-percent="70"><span>0%</span></div>
+        <h3>jenkins</h3>
+      </div>
+      <div class="skill-box">
+        <i class="fas fa-github"></i>
+        <div class="circle" data-percent="75"><span>0%</span></div>
+        <h3>Github</h3>
+    </div>
+  </div>
+  </section>
+
+  <!-- Programming Languages -->
+  <section id="languages" class="section">
+    <h2>Programming Languages</h2>
+    <div class="skills-grid">
+      <div class="skill-box">
+        <i class="fas fa-code"></i>
+        <div class="circle" data-percent="85"><span>0%</span></div>
+        <h3>Python</h3>
+      </div>
+      <div class="skill-box">
+        <i class="fas fa-code"></i>
+        <div class="circle" data-percent="75"><span>0%</span></div>
+        <h3>Java</h3>
+      </div>
+      <div class="skill-box">
+        <i class="fas fa-code"></i>
+        <div class="circle" data-percent="65"><span>0%</span></div>
+        <h3>C++</h3>
+      </div>
+      <div class="skill-box">
+        <i class="fas fa-code"></i>
+        <div class="circle" data-percent="65"><span>0%</span></div>
+        <h3>C</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section active">
+    <h2>My Projects</h2>
+    <div class="projects-grid">
+  
+      <!-- N-Queen Visualization -->
+      <div class="project-card">
+        <h3>N-Queen Visualization</h3>
+        <video width="100%" controls>
+          <source src="nq.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <p>
+          A visualization project that demonstrates solving the N-Queens problem using backtracking.
+          Built with HTML, CSS, and JavaScript to show queen placements dynamically on a chessboard.
+          It helps users understand the logic behind the N-Queens algorithm in a visual way.
+          Responsive UI and easy to use for learning purpose.
+        </p>
+      </div>
+  
+      <!-- FedEx Frontend Clone -->
+      <div class="project-card">
+        <h3>FedEx Frontend Clone</h3>
+        <img src="fedex.png" alt="FedEx Frontend Clone" />
+        <p>
+          A frontend clone of the official FedEx website built using HTML, CSS, and JavaScript.
+          The design is pixel-perfect and responsive on all devices.
+          It replicates the homepage, service navigation, and style layout.
+          Focused on mastering layout and component-based structuring.
+        </p>
+      </div>
+  
+      <!-- Praroz Learning Website -->
+      <div class="project-card">
+        <h3>Praroz Learning Website (Live)</h3>
+
+        <a href="https://amanshah20.github.io/Praroz/" target="_blank">Visit Live Site</a>
+        <p>
+          An educational website for online course learning with a user-friendly interface.
+          Deployed on a live server with all key sections including course listings and student testimonials.
+          Built using HTML, CSS, JavaScript with modern design and responsive layout.
+          Designed to mimic real-life learning portals like Udemy or Coursera.
+        </p>
+      </div>
+  
+      <!-- Docker Flask To-Do App -->
+      <div class="project-card">
+        <h3>To-Do Flask App (Docker-Based)</h3>
+
+        <p>
+          A simple To-Do list application built using Flask and containerized using Docker.
+          Allows users to add, update, and delete tasks in a clean interface.
+          Docker setup makes it portable and easy to deploy on any environment.
+          Great demonstration of full-stack development and DevOps integration.
+        </p>
+      </div>
+  
+    </div>
+  </section>
+  
+
+  <!-- Certifications -->
+  <section id="certifications" class="section">
+    <h2>Certifications</h2>
+    <div class="certs-container">
+  
+      <div class="cert-card">
+        <img src="c1.png" alt="Certification 1" class="cert-img" />
+        <p>Getting Started with DevOps – Gained foundational knowledge in DevOps, CI/CD, Docker, and IT Automation.</p>
+      </div>
+  
+      <div class="cert-card">
+        <img src="c2.png" alt="Certification 2" class="cert-img" />
+        <p>Learning XAI: Explainable AI – Learned techniques to make AI models transparent and interpretable.</p>
+      </div>
+  
+      <div class="cert-card">
+        <img src="c3.png" alt="Certification 3" class="cert-img" />
+        <p>Object-Oriented Programming (LPU) – Completed a 72-hour course on core OOP concepts using iamneo platform.</p>
+      </div>
+
+      <div class="cert-card">
+        <img src="c7.png" alt="Certification 3" class="cert-img" />
+        <p>Data Structures and Algorithms – Lovely Professional University
+          Completed a 72-hour online course on Data Structures and Algorithms via iamneo platform from July to November 2023.</p>
+      </div>
+      
+      <div class="cert-card">
+        <img src="c4.png" alt="Certification 3" class="cert-img" />
+        <p>Getting Started with AI and Machine Learning
+          Completed a LinkedIn Learning path focused on Neural Networks, Machine Learning, and AI fundamentals.</p>
+      </div>
+      
+      <div class="cert-card">
+        <img src="c5.png" alt="Certification 3" class="cert-img" />
+        <p>Introduction to DevOps – IBM (Coursera)
+          Successfully completed a Coursera course by IBM covering the basics of DevOps practices and tools.</p>
+      </div>
+      <div class="cert-card">
+        <img src="c6.png" alt="Certification 3" class="cert-img" />
+        <p>CSS (Basic) – HackerRank
+          Earned certification for foundational CSS skills by passing the HackerRank skill assessment test.</p>
+      </div>
+  
+    </div>
+  </section>
+  
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <div class="contact-box">
+      <form id="contactForm">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+      <div class="social-icons">
+        <a href="https://github.com/amanshah20" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/aman-kumar-3068b1252/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </section>
+  
+    
+
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Aman. All rights reserved.</p>
+  </footer>
+</body>
+<script src="script.js"></script>
+</html>
